@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/server"
+  to = "https://discord.gg/bender"
+  status = 301
