@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bender Premium</title>
     <link rel="stylesheet" href="assets/css/bulma.min.css" />
     <link
@@ -13,59 +13,128 @@
       referrerpolicy="no-referrer"
     />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            margin: 0;
-            padding: 0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
 
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+      .navbar {
+        background-color: #363636 !important;
+      }
 
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+      .navbar-brand .navbar-item {
+        color: #fff;
+        font-weight: bold;
+      }
 
-        p {
-            margin-bottom: 20px;
-        }
+      .navbar-burger {
+        color: #fff;
+      }
 
-        .button {
-            display: block;
-            width: 100%;
-            max-width: 200px;
-            margin: 0 auto;
-            text-align: center;
-            padding: 10px 20px;
-            background-color: #1a73e8;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            text-decoration: none;
-        }
+      .navbar-menu {
+        background-color: #363636 !important;
+      }
 
-        .button:hover {
-            background-color: #0f5abc;
-        }
+      .navbar-item {
+        color: #fff !important;
+      }
+
+      .hero {
+        background-color: #1a2634 !important;
+      }
+
+      .hero .title,
+      .hero .subtitle {
+        color: #fff !important;
+      }
+
+      .section {
+        background-color: #fff !important;
+      }
+
+      .button.is-primary {
+        background-color: #00d1b2 !important;
+        border-color: #00d1b2 !important;
+      }
+
+      .button.is-primary:hover {
+        background-color: #00b89c !important;
+        border-color: #00b89c !important;
+      }
+
+      .footer {
+        background-color: #1a2634 !important;
+        color: #fff !important;
+      }
     </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Get Bender Premium</h1>
-        <p>Bender Premium unlocks exclusive features, advanced moderation tools, and priority support for just $3/lifetime.</p>
-        <p>To purchase Bender Premium, please click the button below to proceed to PayPal.</p>
-        <a href="https://www.paypal.com/paypalme/yourpaypalaccount/3" class="button">Buy Now with PayPal</a>
-    </div>
-</body>
-</html>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand mt-2 mb-2">
+        <a class="navbar-item" href="#">
+          <strong>Bender</strong>
+        </a>
 
+        <a
+          role="button"
+          class="navbar-burger has-text-white"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="#" class="button is-blurple">
+                <strong><i class="fa-solid fa-right-to-bracket mr-2"></i>Login</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Premium Section Start -->
+    <section class="hero bg-base is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-white has-text-weight-bold">Get Bender Premium</h1>
+          <p class="subtitle has-text-grey-light is-size-6 mt-3">
+            Bender Premium unlocks exclusive features, advanced moderation tools, and priority support for just $3/lifetime.
+          </p>
+          <p class="subtitle has-text-grey-light is-size-6 mt-3">
+            To purchase Bender Premium, please click the button below to proceed to PayPal.
+          </p>
+          <a href="https://www.paypal.com/paypalme/yourpaypalaccount/3" class="button is-primary">
+            <strong>Buy Now with PayPal</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Premium Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer bg-base">
+      <div class="content has-text-centered has-text-white">
+        <p>
+          <span class="has-text-weight-bold">Bender</span>
+          <br />
+          &copy; <span id="cp-year"></span> Copyright Bender. All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+  </body>
+</html>
