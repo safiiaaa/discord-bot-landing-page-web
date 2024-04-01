@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bender Premium</title>
     <link rel="stylesheet" href="assets/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
-
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -14,8 +14,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="assets/js/script.js"></script>
   </head>
   <body>
+    <!-- Back To Top Start -->
+    <a id="backtotop" data-tippy-content="Back To Top.">
+      <i class="fa-solid fa-angle-up has-text-white fa-2xl mt-5"></i>
+    </a>
+    <!-- Back To Top End -->
+
     <!-- Navbar Start -->
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand mt-2 mb-2">
@@ -37,11 +49,40 @@
       </div>
 
       <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#" class="navbar-item is-tab">
+            Home
+          </a>
+
+          <a href="#features" class="navbar-item is-tab">
+            Features
+          </a>
+
+          <a href="#stats" class="navbar-item is-tab">
+            Stats
+          </a>
+
+          <a href="#" class="navbar-item is-tab">
+            Docs
+          </a>
+        </div>
+
         <div class="navbar-end">
+          <a href="#" class="navbar-item is-tab" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+
+          <a href="#" class="navbar-item is-tab" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
           <div class="navbar-item">
             <div class="buttons">
               <a href="#" class="button is-blurple">
-                <strong><i class="fa-solid fa-right-to-bracket mr-2"></i>Login</strong>
+                <strong
+                  ><i class="fa-solid fa-right-to-bracket mr-2"></i>
+                  Login</strong
+                >
               </a>
             </div>
           </div>
@@ -50,105 +91,96 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Premium Section Start -->
+    <!-- Hero Section Start -->
     <section class="hero bg-base is-fullheight">
       <div class="hero-body">
-        <div class="container">
-          <h1 class="title has-text-white has-text-weight-bold">Get Bender Premium</h1>
-          <p class="subtitle has-text-grey-light is-size-6 mt-3">
-            Bender Premium unlocks exclusive features, advanced moderation tools, and priority support for just $3/lifetime.
-          </p>
-          <p class="subtitle has-text-grey-light is-size-6 mt-3">
-            To purchase Bender Premium, please click the button below to proceed to PayPal.
-          </p>
-          <a href="https://www.paypal.com/paypalme/AntonioJesus12/3" class="button is-primary">
-            <strong>Buy Now with PayPal</strong>
-          </a>
+        <div class="">
+          <div class="columns">
+            <div class="column mr-6 mt-12" data-aos="fade-up">
+              <p class="title has-text-white has-text-weight-bold">
+                Time to add Bender to your server.
+              </p>
+              <p class="subtitle has-text-grey-light is-size-6 mt-3">
+                Elevate your Discord experience with Bender: your all-in-one bot for fun, moderation, and more for just $3/lifetime.
+              </p>
+              <div class="buttons">
+                <a href="https://discord.com/api/oauth2/authorize?client_id=1170320568164286584&scope=bot+applications.commands&permissions=8" class="button is-info">
+                  <strong>Add To Discord</strong>
+                </a>
+                <!-- Premium button -->
+                <a href="https://bender.lat/premium" class="button is-primary is-outlined">
+                  <strong><i class="fa-solid fa-crown"></i> Premium</strong>
+                </a>
+              </div>
+            </div>
+            <div class="column mt-6" data-aos="fade-left">
+              <img
+                class="image has-image-centered vert-move mt-4"
+                src="assets/img/relaunch_day.svg"
+                alt="hero image"
+                style="width: 20rem;"
+              />
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="has-text-centered" data-tippy-content="Scroll Down">
+        <a href="#features"
+          ><i
+            class="fa-solid fa-circle-chevron-down fa-lg vert-move2 has-text-white"
+          ></i
+        ></a>
       </div>
     </section>
-    <!-- Premium Section End -->
+    <!-- Hero Section End -->
+
+    <!-- Hero Waves Start -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1a2634"
+        fill-opacity="1"
+        d="M0,288L24,261.3C48,235,96,181,144,154.7C192,128,240,128,288,149.3C336,171,384,213,432,202.7C480,192,528,128,576,133.3C624,139,672,213,720,213.3C768,213,816,139,864,101.3C912,64,960,64,1008,106.7C1056,149,1104,235,1152,240C1200,245,1248,171,1296,144C1344,117,1392,139,1416,149.3L1440,160L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Hero Waves End -->
 
     <!-- Features Section Start -->
-    <section class="section">
-      <div class="container">
-        <h2 class="title">Feature Highlights</h2>
-        <div class="content">
-          <p>Highlight some of the key features of Bender Premium:</p>
-          <ul>
-            <li>Exclusive feature 1</li>
-            <li>Advanced moderation tools</li>
-            <li>Premium support</li>
-            <!-- Add more features as needed -->
-          </ul>
-        </div>
-      </div>
+    <section id="features" class="section mt-6">
+      <!-- Add your feature content here -->
     </section>
     <!-- Features Section End -->
 
-    <!-- Testimonials Section Start -->
-    <section class="section">
-      <div class="container">
-        <h2 class="title">Testimonials</h2>
-        <div class="content">
-          <!-- Add testimonials from satisfied premium users -->
-          <p>"Bender Premium has transformed our server's moderation capabilities. Highly recommended!"</p>
-          <p>"The premium support is fantastic! Quick responses and helpful advice."</p>
-        </div>
-      </div>
+    <!-- Stats Section Start -->
+    <section id="stats" class="section mt-6">
+      <!-- Add your stats content here -->
     </section>
-    <!-- Testimonials Section End -->
+    <!-- Stats Section End -->
 
-    <!-- FAQs Section Start -->
-    <section class="section">
-      <div class="container">
-        <h2 class="title">FAQs</h2>
-        <div class="content">
-          <!-- Add frequently asked questions and their answers -->
-          <p><strong>Q: How do I purchase Bender Premium?</strong></p>
-          <p>A: Simply click the "Buy Now with PayPal" button and follow the instructions.</p>
-          <p><strong>Q: Is Bender Premium a one-time payment?</strong></p>
-          <p>A: Yes, Bender Premium is available for a one-time payment of $3.</p>
-          <!-- Add more FAQs as needed -->
-        </div>
-      </div>
+    <!-- Invite Section Start -->
+    <section class="section mt-6">
+      <!-- Add your invite content here -->
     </section>
-    <!-- FAQs Section End -->
-
-    <!-- How It Works Section Start -->
-    <section class="section">
-      <div class="container">
-        <h2 class="title">How It Works</h2>
-        <div class="content">
-          <!-- Explain how users can purchase and access Bender Premium -->
-          <p>1. Click the "Buy Now with PayPal" button.</p>
-          <p>2. Complete the payment process on PayPal.</p>
-          <p>3. Once payment is confirmed, you will receive instructions on accessing Bender Premium.</p>
-        </div>
-      </div>
-    </section>
-    <!-- How It Works Section End -->
-
-    <!-- Community Benefits Section Start -->
-    <section class="section">
-      <div class="container">
-        <h2 class="title">Community Benefits</h2>
-        <div class="content">
-          <!-- Highlight any community perks or exclusive access premium users receive -->
-          <p>Premium users enjoy access to exclusive channels and events, priority support, and more!</p>
-        </div>
-      </div>
-    </section>
-    <!-- Community Benefits Section End -->
+    <!-- Invite Section End -->
 
     <!-- Footer Section Start -->
     <footer class="footer bg-base">
       <div class="content has-text-centered has-text-white">
+        <div class="mb-2">
+          <a href="#" class="has-text-white" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          &nbsp; &nbsp;
+          <a href="#" class="has-text-white" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
         <p>
           <span class="has-text-weight-bold">Bender</span>
           <br />
           &copy; <span id="cp-year"></span> Copyright Bender. All Rights
           Reserved.
+        </p>
         </p>
       </div>
     </footer>
