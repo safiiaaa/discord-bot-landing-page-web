@@ -1,4 +1,4 @@
 [[redirects]]
-  from = "/server"
-  to = "https://discord.gg/bender"
+  from = "https://server.bender.lat/*"
+  to = "https://discord.gg/bender/:splat"
   status = 301
