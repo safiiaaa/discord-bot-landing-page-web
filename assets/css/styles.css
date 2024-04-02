@@ -13,12 +13,12 @@ html {
 }
 
 .bg-base {
-  background-color: #1a2634 !important;
+  background-color: #705602 !important;
 }
 
 #backtotop {
   display: inline-block;
-  background-color: #7289da;
+  background-color: #705602;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -192,9 +192,9 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: #d9a600;
+  background-color: #705602;
   border-color: transparent;
-  color: #fff;
+  color: #d9a600;
 }
 
 .single-feature {
