@@ -9,16 +9,16 @@ html {
 }
 
 .blurple {
-  color: #7289da;
+  color: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
 }
 
 .bg-base {
-  background-color: #705602 !important;
+  background-color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
 }
 
 #backtotop {
   display: inline-block;
-  background-color: #705602;
+  background-color: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -56,12 +56,12 @@ html {
 
 .navbar-item:hover {
   background-color: transparent !important;
-  color: #d9a600 !important;
+  color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
 }
 
 .navbar-link:hover {
   background-color: transparent !important;
-  color: #d9a600 !important;
+  color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
 }
 
 .navbar-menu {
@@ -94,7 +94,7 @@ html {
 
 nav,
 .navbar-menu {
-  background-color: #d9a600 !important;
+  background-color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
 }
 
 .navbar-item.nav-dark,
@@ -147,15 +147,13 @@ nav.nav-w {
 }
 
 .line {
-  background: #d9a600;
-  background: #d9a600;
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
   width: 150px;
   height: 5px;
 }
 
 .line2 {
-  background: #d9a600;
-  background: #d9a600;
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
   width: 75px;
   height: 5px;
 }
@@ -165,7 +163,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: #d9a600;
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
 }
 
 .title.lined {
@@ -192,9 +190,9 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: #705602;
+  background-color: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
   border-color: transparent;
-  color: #d9a600;
+  color: #fff;
 }
 
 .single-feature {
@@ -217,8 +215,7 @@ nav.nav-w {
 }
 
 @media (max-width: 767px) {
-  .shape-right
- {
+  .shape-right {
     display: none;
   }
 }
