@@ -13,12 +13,12 @@ html {
 }
 
 .bg-base {
-  background-color: #AD8B00 !important; /* Dark gold background */
+  background-color: #B59410 !important; /* Dark gold background */
 }
 
 #backtotop {
   display: inline-block;
-  background-color: #D8AB00; /* Gold button */
+  background-color: #A0830E; /* Gold button */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -34,11 +34,11 @@ html {
 
 #backtotop:hover {
   cursor: pointer;
-  background-color: #AD8B00; /* Darker gold button on hover */
+  background-color: #8C730C; /* Even darker gold button on hover */
 }
 
 #backtotop:active {
-  background-color: #8C6E00; /* Even darker gold button on active */
+  background-color: #78620A; /* Even darker gold button on active */
 }
 
 #backtotop.show {
@@ -94,7 +94,7 @@ html {
 
 nav,
 .navbar-menu {
-  background-color: #736F62 !important; /* Darker nav bar */
+  background-color: #8C730C !important; /* Darker nav bar */
 }
 
 .navbar-item.nav-dark,
@@ -147,13 +147,13 @@ nav.nav-w {
 }
 
 .line {
-  background: #AD8B00; /* Dark gold line */
+  background: #A0830E; /* Dark gold line */
   width: 150px;
   height: 5px;
 }
 
 .line2 {
-  background: #AD8B00; /* Dark gold line */
+  background: #A0830E; /* Dark gold line */
   width: 75px;
   height: 5px;
 }
@@ -163,7 +163,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: #D8AB00; /* Gold line */
+  background: #B59410; /* Gold line */
 }
 
 .title.lined {
@@ -190,7 +190,7 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: #D8AB00; /* Gold button */
+  background-color: #A0830E; /* Gold button */
   border-color: transparent;
   color: white; /* White letters */
 }
