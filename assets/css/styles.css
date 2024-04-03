@@ -18,7 +18,7 @@ html {
 }
 
 .bg-base {
-  background-color: #B59410 !important; /* Dark gold background */
+  background-color: #fad025 !important; /* Dark gold background */
 }
 
 #backtotop {
@@ -168,7 +168,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: #B59410; /* Gold line */
+  background: #fad025; /* Gold line */
 }
 
 .title.lined {
@@ -195,7 +195,7 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: #A0830E; /* Gold button */
+  background-color: #fad025; /* Gold button */
   border-color: transparent;
   color: white; /* White letters */
 }
