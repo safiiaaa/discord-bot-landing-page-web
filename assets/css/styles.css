@@ -9,16 +9,16 @@ html {
 }
 
 .blurple {
-  color: #E8E800; /* Dark gold color */
+  color: white; /* White letters */
 }
 
 .bg-base {
-  background-color: #B9B900 !important; /* Darker gold color for background */
+  background-color: #AD8B00 !important; /* Dark gold background */
 }
 
 #backtotop {
   display: inline-block;
-  background-color: #E8E800; /* Dark gold color */
+  background-color: #D8AB00; /* Gold button */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -34,11 +34,11 @@ html {
 
 #backtotop:hover {
   cursor: pointer;
-  background-color: #888800; /* Darker gold color on hover */
+  background-color: #AD8B00; /* Darker gold button on hover */
 }
 
 #backtotop:active {
-  background-color: #E8E800; /* Even darker gold color on active */
+  background-color: #8C6E00; /* Even darker gold button on active */
 }
 
 #backtotop.show {
@@ -56,12 +56,12 @@ html {
 
 .navbar-item:hover {
   background-color: transparent !important;
-  color: #E8E800 !important; /* Dark gold color */
+  color: white !important; /* White letters on hover */
 }
 
 .navbar-link:hover {
   background-color: transparent !important;
-  color: #E8E800 !important; /* Dark gold color */
+  color: white !important; /* White letters on hover */
 }
 
 .navbar-menu {
@@ -94,17 +94,17 @@ html {
 
 nav,
 .navbar-menu {
-  background-color: #959517 !important; /* Darker gold color for navbar background */
+  background-color: #736F62 !important; /* Darker nav bar */
 }
 
 .navbar-item.nav-dark,
 .navbar-link.nav-dark {
-  color: #959517 !important;
+  color: white !important; /* White letters */
 }
 
 .navbar-item,
 .navbar-link {
-  color: white !important;
+  color: white !important; /* White letters */
 }
 
 nav.nav-w {
@@ -147,13 +147,13 @@ nav.nav-w {
 }
 
 .line {
-  background: #D8AB00; /* Darker gold color for line */
+  background: #AD8B00; /* Dark gold line */
   width: 150px;
   height: 5px;
 }
 
 .line2 {
-  background: #D8AB00; /* Darker gold color for line */
+  background: #AD8B00; /* Dark gold line */
   width: 75px;
   height: 5px;
 }
@@ -163,7 +163,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: #FFD700; /* Dark gold color */
+  background: #D8AB00; /* Gold line */
 }
 
 .title.lined {
@@ -190,9 +190,9 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: #FFD700; /* Dark gold color */
+  background-color: #D8AB00; /* Gold button */
   border-color: transparent;
-  color: #fff;
+  color: white; /* White letters */
 }
 
 .single-feature {
