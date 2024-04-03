@@ -9,16 +9,16 @@ html {
 }
 
 .blurple {
-  color: #FFD700; /* Dark gold color */
+  color: #E8E800; /* Dark gold color */
 }
 
 .bg-base {
-  background-color: #F9D71C !important; /* Darker gold color for background */
+  background-color: #B9B900 !important; /* Darker gold color for background */
 }
 
 #backtotop {
   display: inline-block;
-  background-color: #FFD700; /* Dark gold color */
+  background-color: #E8E800; /* Dark gold color */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -34,11 +34,11 @@ html {
 
 #backtotop:hover {
   cursor: pointer;
-  background-color: #D8AB00; /* Darker gold color on hover */
+  background-color: #888800; /* Darker gold color on hover */
 }
 
 #backtotop:active {
-  background-color: #AC8600; /* Even darker gold color on active */
+  background-color: #E8E800; /* Even darker gold color on active */
 }
 
 #backtotop.show {
@@ -56,12 +56,12 @@ html {
 
 .navbar-item:hover {
   background-color: transparent !important;
-  color: #FFD700 !important; /* Dark gold color */
+  color: #E8E800 !important; /* Dark gold color */
 }
 
 .navbar-link:hover {
   background-color: transparent !important;
-  color: #FFD700 !important; /* Dark gold color */
+  color: #E8E800 !important; /* Dark gold color */
 }
 
 .navbar-menu {
@@ -94,12 +94,12 @@ html {
 
 nav,
 .navbar-menu {
-  background-color: #C0B283 !important; /* Darker gold color for navbar background */
+  background-color: #959517 !important; /* Darker gold color for navbar background */
 }
 
 .navbar-item.nav-dark,
 .navbar-link.nav-dark {
-  color: #363636 !important;
+  color: #959517 !important;
 }
 
 .navbar-item,
