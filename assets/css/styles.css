@@ -8,8 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 .custom-button {
-  background-color: #A0830E; 
+  background-color: #A0830E !important; /* Your desired gold color */
+  /* Add any other styles you want for the button */
 }
+
 
 .blurple {
   color: white; /* White letters */
