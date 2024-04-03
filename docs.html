@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bender - Documentation</title>
+    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand mt-2 mb-2">
+        <a class="navbar-item" href="#">
+          <strong>Bender</strong>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger has-text-white"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#" class="navbar-item is-tab">
+            Home
+          </a>
+
+          <a href="#features" class="navbar-item is-tab">
+            Features
+          </a>
+
+          <a href="#stats" class="navbar-item is-tab">
+            Stats
+          </a>
+
+          <a href="docs.html" class="navbar-item is-tab">
+            Docs
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a href="#" class="navbar-item is-tab" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+
+          <a href="#" class="navbar-item is-tab" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="#" class="button is-blurple">
+                <strong
+                  ><i class="fa-solid fa-right-to-bracket mr-2"></i>
+                  Login</strong
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Docs Section Start -->
+    <section class="section mt-6">
+      <div class="container">
+        <div class="columns">
+          <!-- Bot Commands Panel -->
+          <div class="column is-half">
+            <div class="box">
+              <h3 class="title has-text-centered lined">Bot Commands</h3>
+              <div class="content">
+                <p>Brief description of bot commands.</p>
+                <a href="commands.html" class="button is-info is-fullwidth mt-3">Go to Commands</a>
+              </div>
+            </div>
+          </div>
+          <!-- Bot Commands Panel End -->
+
+          <!-- Bot Variables Panel -->
+          <div class="column is-half">
+            <div class="box">
+              <h3 class="title has-text-centered lined">Bot Variables</h3>
+              <div class="content">
+                <p>Brief description of bot variables.</p>
+                <a href="variables.html" class="button is-info is-fullwidth mt-3">Go to Variables</a>
+              </div>
+            </div>
+          </div>
+          <!-- Bot Variables Panel End -->
+        </div>
+      </div>
+    </section>
+    <!-- Docs Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer bg-base">
+      <div class="content has-text-centered has-text-white">
+        <div class="mb-2">
+          <a href="https://bender.lat/server" class="has-text-white" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          &nbsp; &nbsp;
+          <a href="https://github.com/" class="has-text-white" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <p>
+          <span class="has-text-weight-bold">Bender</span>
+          <br />
+          &copy; <span id="cp-year"></span> Copyright Bender. All Rights
+          Reserved.
+        </p>
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
