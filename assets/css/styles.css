@@ -13,12 +13,12 @@ html {
 }
 
 .bg-base {
-  background-color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
 }
 
 #backtotop {
   display: inline-block;
-  background-color: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -34,11 +34,13 @@ html {
 
 #backtotop:hover {
   cursor: pointer;
-  background-color: #333;
+  background: #333; /* Fallback color */
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
 }
 
 #backtotop:active {
-  background-color: #555;
+  background: #555; /* Fallback color */
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
 }
 
 #backtotop.show {
@@ -94,7 +96,7 @@ html {
 
 nav,
 .navbar-menu {
-  background-color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
 }
 
 .navbar-item.nav-dark,
@@ -190,7 +192,7 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background-color: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
   border-color: transparent;
   color: #fff;
 }
