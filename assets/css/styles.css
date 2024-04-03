@@ -7,6 +7,9 @@
 html {
   scroll-behavior: smooth;
 }
+.custom-button {
+  background-color: #A0830E; 
+}
 
 .blurple {
   color: white; /* White letters */
