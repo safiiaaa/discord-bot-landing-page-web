@@ -11,8 +11,9 @@ html {
   background-color: #EDC33B  !important; /* Your desired gold color */
   /* Add any other styles you want for the button */
 }
-
-
+.subtitle {
+  color: #FFFFFF; /* White color */
+}
 .blurple {
   color: white; /* White letters */
 }
