@@ -9,16 +9,16 @@ html {
 }
 
 .blurple {
-  color: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  color: #FFD700; /* Dark gold color */
 }
 
 .bg-base {
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background-color: #F9D71C !important; /* Darker gold color for background */
 }
 
 #backtotop {
   display: inline-block;
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background-color: #FFD700; /* Dark gold color */
   width: 50px;
   height: 50px;
   text-align: center;
@@ -34,13 +34,11 @@ html {
 
 #backtotop:hover {
   cursor: pointer;
-  background: #333; /* Fallback color */
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background-color: #D8AB00; /* Darker gold color on hover */
 }
 
 #backtotop:active {
-  background: #555; /* Fallback color */
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background-color: #AC8600; /* Even darker gold color on active */
 }
 
 #backtotop.show {
@@ -58,12 +56,12 @@ html {
 
 .navbar-item:hover {
   background-color: transparent !important;
-  color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
+  color: #FFD700 !important; /* Dark gold color */
 }
 
 .navbar-link:hover {
   background-color: transparent !important;
-  color: linear-gradient(to right, #FFD700, #FFDF00) !important; /* Gradient of gold */
+  color: #FFD700 !important; /* Dark gold color */
 }
 
 .navbar-menu {
@@ -96,7 +94,7 @@ html {
 
 nav,
 .navbar-menu {
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background-color: #C0B283 !important; /* Darker gold color for navbar background */
 }
 
 .navbar-item.nav-dark,
@@ -149,13 +147,13 @@ nav.nav-w {
 }
 
 .line {
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background: #D8AB00; /* Darker gold color for line */
   width: 150px;
   height: 5px;
 }
 
 .line2 {
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background: #D8AB00; /* Darker gold color for line */
   width: 75px;
   height: 5px;
 }
@@ -165,7 +163,7 @@ nav.nav-w {
 }
 
 .line.blurple {
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background: #FFD700; /* Dark gold color */
 }
 
 .title.lined {
@@ -192,7 +190,7 @@ nav.nav-w {
 }
 
 .button.is-blurple {
-  background: linear-gradient(to right, #FFD700, #FFDF00); /* Gradient of gold */
+  background-color: #FFD700; /* Dark gold color */
   border-color: transparent;
   color: #fff;
 }
