@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 .custom-button {
-  background-color: #BA910B !important; /* Your desired gold color */
+  background-color: #B59410  !important; /* Your desired gold color */
   /* Add any other styles you want for the button */
 }
 
@@ -18,7 +18,7 @@ html {
 }
 
 .bg-base {
-  background-color: #fad025 !important; /* Dark gold background */
+  background-color: #BA910B !important; /* Dark gold background */
 }
 
 #backtotop {
